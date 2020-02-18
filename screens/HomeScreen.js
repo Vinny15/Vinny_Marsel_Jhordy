@@ -1,6 +1,5 @@
 import React from 'react';
 import { Text, Button, View, StyleSheet, ImageBackground,TouchableOpacity, Image, Alert, FlatList } from 'react-native';
-import SearchBar from 'react-native-search-bar';
 
 const HomeScreen = ({ navigation }) => {
     return (
@@ -9,15 +8,6 @@ const HomeScreen = ({ navigation }) => {
             style={{width: 400, height: 800}}
         >
             <View style={styles.listContainer}>
-            <SearchBar
-              ref="searchBar"
-              placeholder="Search"
-              onChangeText={...}
-              onSearchButtonPress={...}
-              onCancelButtonPress={...}
-            />
-
-
                 <TouchableOpacity style = {[styles.card, {backgroundColor:'#E0FFFF'}]} onPress={() => navigation.navigate('Menu')} >
                     <Image style={styles.cardImage} source={{uri:"https://cdn.pixabay.com/photo/2013/07/12/12/03/food-145188_960_720.png"}}/>
                 </TouchableOpacity>

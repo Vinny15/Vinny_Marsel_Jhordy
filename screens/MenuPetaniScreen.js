@@ -8,7 +8,7 @@ const MenuPetaniScreen = ({ navigation }) => {
           <View style={styles.header}>
             <View style={styles.cardHeader}>
               <Text style={styles.title}> </Text>
-              <TouchableOpacity onPress={() => navigation.navigate('Sayur')}>
+              <TouchableOpacity onPress={() => navigation.navigate('Notification')}>
                 <Image style={styles.icoon} source={{uri:"https://d30y9cdsu7xlg0.cloudfront.net/png/194977-200.png"}}/>
               </TouchableOpacity>
               <TouchableOpacity onPress={() => navigation.navigate('Buah')}>
@@ -37,6 +37,41 @@ const MenuPetaniScreen = ({ navigation }) => {
                <TouchableOpacity onPress={() => navigation.navigate('ProdukPetani')} >
                  <Image style={styles.icon} source={{uri: 'https://png.icons8.com/facebook-like/color/40/2ecc71'}}/>
                  <Text>Produk</Text>
+               </TouchableOpacity>
+              </View>
+
+              <View style={styles.menuBox}>
+               <TouchableOpacity onPress={() => navigation.navigate('About')} >
+                 <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
+                 <Text>Pesanan</Text>
+               </TouchableOpacity>
+              </View>
+
+              <View style={styles.menuBox}>
+               <TouchableOpacity onPress={() => navigation.navigate('About')} >
+                 <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
+                 <Text>Pesanan</Text>
+               </TouchableOpacity>
+              </View>
+
+              <View style={styles.menuBox}>
+               <TouchableOpacity onPress={() => navigation.navigate('About')} >
+                 <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
+                 <Text>Pesanan</Text>
+               </TouchableOpacity>
+              </View>
+
+              <View style={styles.menuBox}>
+               <TouchableOpacity onPress={() => navigation.navigate('About')} >
+                 <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
+                 <Text>Pesanan</Text>
+               </TouchableOpacity>
+              </View>
+
+              <View style={styles.menuBox}>
+               <TouchableOpacity onPress={() => navigation.navigate('About')} >
+                 <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
+                 <Text>Pesanan</Text>
                </TouchableOpacity>
               </View>
 

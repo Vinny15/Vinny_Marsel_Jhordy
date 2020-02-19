@@ -18,6 +18,7 @@ const DaftarProdukPelanggan = ({ navigation }) => {
 // ]
 
     <View style={styles.container}>
+
       <View style={styles.menuBox}>
         <TouchableOpacity onPress={() => navigation.navigate('DetailMangga')} >
           <Image style={styles.icon} source={{uri: "https://cdn-brilio-net.akamaized.net/community/2019/03/26/17915/image_1553582820_5c99cae47a271.jpg"}}/>
@@ -65,7 +66,7 @@ const styles = StyleSheet.create({
     height:150,
     alignItems: 'center',
     justifyContent: 'center',
-    margin:12
+    margin:16
   },
   icon: {
     width:150,

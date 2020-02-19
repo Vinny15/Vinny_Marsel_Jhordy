@@ -4,6 +4,7 @@ import {
   Text,
   View,
   Image,
+  TouchableOpacity
 } from 'react-native';
 
 export default class MenuPelangganScreen extends Component {
@@ -26,13 +27,17 @@ export default class MenuPelangganScreen extends Component {
             <View style={styles.bodyContent}>
 
               <View style={styles.menuBox}>
-                <Image style={styles.icon} source={{uri: 'https://png.icons8.com/facebook-like/color/40/2ecc71'}}/>
-                <Text style={styles.info}>Icon</Text>
+                <TouchableOpacity onPress={() => this.props.navigation.navigate('ProdukPelanggan')} >
+                  <Image style={styles.icon} source={{uri: 'https://png.icons8.com/facebook-like/color/40/2ecc71'}}/>
+                </TouchableOpacity>
+                <Text style={styles.info}>Produk</Text>
               </View>
 
               <View style={styles.menuBox}>
-                <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
-                <Text style={styles.info}>Icon</Text>
+                <TouchableOpacity onPress={() => this.props.navigation.navigate('ProdukPelanggan')}>
+                  <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
+                </TouchableOpacity>
+                <Text style={styles.info}>Keranjang</Text>
               </View>
 
               <View style={styles.menuBox}>

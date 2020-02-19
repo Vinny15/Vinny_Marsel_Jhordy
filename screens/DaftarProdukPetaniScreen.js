@@ -19,45 +19,98 @@ const DaftarProdukPetani = ({ navigation }) => {
 
     <View style={styles.container}>
       <View style={styles.menuBox}>
-      <Text>Mangga</Text>
-      <Image style={styles.icon} source={{uri: "https://cdn-brilio-net.akamaized.net/community/2019/03/26/17915/image_1553582820_5c99cae47a271.jpg"}}/>
-      
-      <View style={styles.socialBarContainer}>
-        <View style={styles.socialBarSection}>
-          <TouchableOpacity style={styles.socialBarButton} onPress={() => navigation.navigate()}>
-            <Text style={[styles.socialBarLabel, styles.share]}>Edit</Text>
-          </TouchableOpacity>
+        <Text>Mangga</Text>
+          <Image style={styles.icon} source={{uri: "https://cdn-brilio-net.akamaized.net/community/2019/03/26/17915/image_1553582820_5c99cae47a271.jpg"}}/>
+        
+        <View style={styles.socialBarContainer}>
+          <View style={styles.socialBarSection}>
+            <TouchableOpacity style={styles.socialBarButton}>
+              <Text style={[styles.socialBarLabel, styles.share]}>Edit</Text>
+            </TouchableOpacity>
+          </View>
+          <View style={styles.socialBarSection}>
+            <TouchableOpacity style={styles.socialBarButton}>
+              <Text style={styles.socialBarLabel}>Delete</Text>
+            </TouchableOpacity>
+          </View>
         </View>
-        <View style={styles.socialBarSection}>
-          <TouchableOpacity style={styles.socialBarButton} onPress={() => navigation.navigate()}>
-            <Text style={styles.socialBarLabel}>Delete</Text>
-          </TouchableOpacity>
-        </View>
+
       </View>
-      </View>
+
       <View style={styles.menuBox}>
-        <TouchableOpacity onPress={() => navigation.navigate('DetailDurian')} >
+        <Text>Durian</Text>
           <Image style={styles.icon} source={{uri: "https://kuyahejo.com/wp-content/uploads/2016/03/Buah-Durian.jpg"}}/>
-          <Text style={styles.info}>Durian</Text>
-        </TouchableOpacity>
+        
+        <View style={styles.socialBarContainer}>
+          <View style={styles.socialBarSection}>
+            <TouchableOpacity style={styles.socialBarButton}>
+              <Text style={[styles.socialBarLabel, styles.share]}>Edit</Text>
+            </TouchableOpacity>
+          </View>
+          <View style={styles.socialBarSection}>
+            <TouchableOpacity style={styles.socialBarButton}>
+              <Text style={styles.socialBarLabel}>Delete</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+        
       </View>
+
       <View style={styles.menuBox}>
-        <TouchableOpacity onPress={() => navigation.navigate('DetailManggis')} >
+        <Text>Manggis</Text>
           <Image style={styles.icon} source={{uri: "https://www.go-dok.com/wp-content/uploads/2017/07/7-Manfaat-Manggis-WEB.jpg"}}/>
-          <Text style={styles.info}>Manggis</Text>
-        </TouchableOpacity>
+        
+        <View style={styles.socialBarContainer}>
+          <View style={styles.socialBarSection}>
+            <TouchableOpacity style={styles.socialBarButton}>
+              <Text style={[styles.socialBarLabel, styles.share]}>Edit</Text>
+            </TouchableOpacity>
+          </View>
+          <View style={styles.socialBarSection}>
+            <TouchableOpacity style={styles.socialBarButton}>
+              <Text style={styles.socialBarLabel}>Delete</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+        
       </View>
+
       <View style={styles.menuBox}>
-        <TouchableOpacity onPress={() => navigation.navigate('DetailJeruk')} >
+        <Text>Jeruk</Text>
           <Image style={styles.icon} source={{uri: "https://img.okezone.com/content/2017/11/13/298/1813316/ragam-jenis-jeruk-lokal-yang-penuh-khasiat-jeruk-sambas-jadi-andalan-3ejCADEvU7.jpg"}}/>
-          <Text style={styles.info}>Jeruk</Text>
-        </TouchableOpacity>
+        
+        <View style={styles.socialBarContainer}>
+          <View style={styles.socialBarSection}>
+            <TouchableOpacity style={styles.socialBarButton}>
+              <Text style={[styles.socialBarLabel, styles.share]}>Edit</Text>
+            </TouchableOpacity>
+          </View>
+          <View style={styles.socialBarSection}>
+            <TouchableOpacity style={styles.socialBarButton}>
+              <Text style={styles.socialBarLabel}>Delete</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+        
       </View>
+
       <View style={styles.menuBox}>
-        <TouchableOpacity onPress={() => navigation.navigate('DetailPisang')} >
+        <Text>Pisang</Text>
           <Image style={styles.icon} source={{uri: "https://topmedia.co.id/images/post/2019/02/640x400_pisang_.jpg"}}/>
-          <Text style={styles.info}>Pisang</Text>
-        </TouchableOpacity>
+        
+        <View style={styles.socialBarContainer}>
+          <View style={styles.socialBarSection}>
+            <TouchableOpacity style={styles.socialBarButton}>
+              <Text style={[styles.socialBarLabel, styles.share]}>Edit</Text>
+            </TouchableOpacity>
+          </View>
+          <View style={styles.socialBarSection}>
+            <TouchableOpacity style={styles.socialBarButton}>
+              <Text style={styles.socialBarLabel}>Delete</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+        
       </View>
 
     </View>

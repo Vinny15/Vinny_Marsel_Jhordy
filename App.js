@@ -1,8 +1,6 @@
 import React from 'react';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import { StyleSheet, Text, View } from 'react-native';
-import HomeScreenBuah from './screens/HomeScreenBuah';
-import SayurScreen from './screens/SayurScreen';
 import MenuUtama from './screens/MenuUtama';
 import Profile from './screens/Profile';
 import AboutScreen from './screens/AboutScreen';
@@ -18,12 +16,11 @@ import DetailJerukScreen from './screens/DetailJerukScreen';
 import DaftarProdukPetani from './screens/DaftarProdukPetaniScreen';
 import DaftarProdukPelanggan from './screens/DaftarProdukPelangganScreen';
 import MenuPelangganScreen from './screens/MenuPelangganScreen';
+import HalamanUtama from './screens/HalamanUtama';
 
 const navigator = createStackNavigator({
   ProdukPetani: DaftarProdukPetani,
   ProdukPelanggan: DaftarProdukPelanggan,
-  Sayur: SayurScreen,
-  Home: HomeScreenBuah,
   Menu: MenuUtama,
   Profile: Profile,
   About: AboutScreen,
@@ -31,14 +28,15 @@ const navigator = createStackNavigator({
   Chat: ChatScreen,
   Notification: Notification,
   MenuPetani: MenuPetaniScreen,
+  MenuPelanggan: MenuPelangganScreen,
   DetailMangga: DetailManggaScreen,
   DetailDurian: DetailDurianscreen,
   DetailPisang: DetailPisangScreen,
   DetailManggis: DetailMaggisScreen,
   DetailJeruk: DetailJerukScreen,
-  MenuPelanggan: MenuPelangganScreen
+  Halaman: HalamanUtama
 },{
-  initialRouteName: 'Login',
+  initialRouteName: 'Halaman',
   defaultNavigationOptions: {
     headerTitle: 'TaniBisnisShop',
     headerStyle: {

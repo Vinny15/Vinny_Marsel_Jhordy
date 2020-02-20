@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text, Button, View, StyleSheet, ImageBackground,TouchableOpacity, Image, Alert, FlatList } from 'react-native';
 
-const MenuUtama = ({ navigation }) => {
+const MenuKedua = ({ navigation }) => {
     return (
         <ImageBackground 
             source={{uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRQRAiHGGkZvf5ofUp5uXjM96pUAdbjBgHj0bDJiUlFIlimxPP0'}}
@@ -52,4 +52,4 @@ const styles = StyleSheet.create({
     }
   });
 
-export default MenuUtama;
+export default MenuKedua;

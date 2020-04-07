@@ -41,42 +41,7 @@ const MenuPetaniScreen = ({ navigation }) => {
               </View>
 
               <View style={styles.menuBox}>
-               <TouchableOpacity onPress={() => navigation.navigate('About')} >
-                 <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
-                 <Text>Pesanan</Text>
-               </TouchableOpacity>
-              </View>
-
-              <View style={styles.menuBox}>
-               <TouchableOpacity onPress={() => navigation.navigate('About')} >
-                 <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
-                 <Text>Pesanan</Text>
-               </TouchableOpacity>
-              </View>
-
-              <View style={styles.menuBox}>
-               <TouchableOpacity onPress={() => navigation.navigate('About')} >
-                 <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
-                 <Text>Pesanan</Text>
-               </TouchableOpacity>
-              </View>
-
-              <View style={styles.menuBox}>
-               <TouchableOpacity onPress={() => navigation.navigate('About')} >
-                 <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
-                 <Text>Pesanan</Text>
-               </TouchableOpacity>
-              </View>
-
-              <View style={styles.menuBox}>
-               <TouchableOpacity onPress={() => navigation.navigate('About')} >
-                 <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
-                 <Text>Pesanan</Text>
-               </TouchableOpacity>
-              </View>
-
-              <View style={styles.menuBox}>
-               <TouchableOpacity onPress={() => navigation.navigate('About')} >
+               <TouchableOpacity onPress={() => navigation.navigate('Pesanan')}>
                  <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
                  <Text>Pesanan</Text>
                </TouchableOpacity>

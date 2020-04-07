@@ -17,6 +17,7 @@ import DaftarProdukPetani from './screens/DaftarProdukPetaniScreen';
 import DaftarProdukPelanggan from './screens/DaftarProdukPelangganScreen';
 import MenuPelangganScreen from './screens/MenuPelangganScreen';
 import HalamanUtama from './screens/HalamanUtama';
+import PesananPetaniScreen from './screens/PesananPetaniScreen';
 
 const navigator = createStackNavigator({
   ProdukPetani: DaftarProdukPetani,
@@ -34,7 +35,8 @@ const navigator = createStackNavigator({
   DetailPisang: DetailPisangScreen,
   DetailManggis: DetailMaggisScreen,
   DetailJeruk: DetailJerukScreen,
-  Halaman: HalamanUtama
+  Halaman: HalamanUtama,
+  Pesanan: PesananPetaniScreen
 },{
   initialRouteName: 'Halaman',
   defaultNavigationOptions: {

@@ -1,6 +1,7 @@
 import React from 'react';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import { StyleSheet, Text, View } from 'react-native';
+import MenuKedua from './screens/MenuKedua';
 import MenuUtama from './screens/MenuUtama';
 import Profile from './screens/Profile';
 import AboutScreen from './screens/AboutScreen';
@@ -16,14 +17,16 @@ import DetailJerukScreen from './screens/DetailJerukScreen';
 import DaftarProdukPetani from './screens/DaftarProdukPetaniScreen';
 import DaftarProdukPelanggan from './screens/DaftarProdukPelangganScreen';
 import MenuPelangganScreen from './screens/MenuPelangganScreen';
-import HalamanUtama from './screens/HalamanUtama';
 import AllProduk from './screens/AllProduk';
 import SuksesOrder from './screens/SuksesOrder';
+import MenuScreen from './screens/MenuScreen';
 
 const navigator = createStackNavigator({
   ProdukPetani: DaftarProdukPetani,
   ProdukPelanggan: DaftarProdukPelanggan,
-  Menu: MenuUtama,
+  MenuKedua: MenuKedua,
+  MenuUtama: MenuUtama,
+  Menu: MenuScreen,
   Profile: Profile,
   About: AboutScreen,
   Login: LoginScreen,
@@ -36,11 +39,10 @@ const navigator = createStackNavigator({
   DetailPisang: DetailPisangScreen,
   DetailManggis: DetailMaggisScreen,
   DetailJeruk: DetailJerukScreen,
-  Halaman: HalamanUtama,
   AllProduk: AllProduk,
   SuksesOrder: SuksesOrder
 },{
-  initialRouteName: 'Halaman',
+  initialRouteName: 'MenuPelanggan',
   defaultNavigationOptions: {
     headerTitle: 'TaniBisnisShop',
     headerStyle: {

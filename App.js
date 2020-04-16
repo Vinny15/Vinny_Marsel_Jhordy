@@ -1,7 +1,6 @@
 import React from 'react';
 import { createStackNavigator, createAppContainer } from 'react-navigation';
 import { StyleSheet, Text, View } from 'react-native';
-import MenuKedua from './screens/MenuKedua';
 import MenuUtama from './screens/MenuUtama';
 import Profile from './screens/Profile';
 import AboutScreen from './screens/AboutScreen';
@@ -17,21 +16,15 @@ import DetailJerukScreen from './screens/DetailJerukScreen';
 import DaftarProdukPetani from './screens/DaftarProdukPetaniScreen';
 import DaftarProdukPelanggan from './screens/DaftarProdukPelangganScreen';
 import MenuPelangganScreen from './screens/MenuPelangganScreen';
-<<<<<<< HEAD
-import AllProduk from './screens/AllProduk';
-import SuksesOrder from './screens/SuksesOrder';
-import MenuScreen from './screens/MenuScreen';
-=======
 import HalamanUtama from './screens/HalamanUtama';
-import PesananPetaniScreen from './screens/PesananPetaniScreen';
->>>>>>> master
+import HalamanUtamaVinny from './screens/HalamanUtamaVinny';
+import SuksesOrderScreen from './screens/SuksesOrderScreen';
+import ProfilePelangganScreen from './screens/ProfilePelangganScreen';
 
 const navigator = createStackNavigator({
   ProdukPetani: DaftarProdukPetani,
   ProdukPelanggan: DaftarProdukPelanggan,
-  MenuKedua: MenuKedua,
-  MenuUtama: MenuUtama,
-  Menu: MenuScreen,
+  Menu: MenuUtama,
   Profile: Profile,
   About: AboutScreen,
   Login: LoginScreen,
@@ -39,24 +32,21 @@ const navigator = createStackNavigator({
   Notification: Notification,
   MenuPetani: MenuPetaniScreen,
   MenuPelanggan: MenuPelangganScreen,
+  ProfilePelanggan: ProfilePelangganScreen,
   DetailMangga: DetailManggaScreen,
   DetailDurian: DetailDurianscreen,
   DetailPisang: DetailPisangScreen,
   DetailManggis: DetailMaggisScreen,
   DetailJeruk: DetailJerukScreen,
-<<<<<<< HEAD
-  AllProduk: AllProduk,
-  SuksesOrder: SuksesOrder
-=======
   Halaman: HalamanUtama,
-  Pesanan: PesananPetaniScreen
->>>>>>> master
+  HalamanVinny: HalamanUtamaVinny,
+  SuksesOrder: SuksesOrderScreen
 },{
-  initialRouteName: 'MenuPelanggan',
+  initialRouteName: 'HalamanVinny',
   defaultNavigationOptions: {
     headerTitle: 'TaniBisnisShop',
     headerStyle: {
-      backgroundColor: '#4682B4'
+      backgroundColor: '#3498db'
     }
   } 
 });

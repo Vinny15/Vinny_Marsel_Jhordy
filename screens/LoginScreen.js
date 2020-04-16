@@ -35,7 +35,7 @@ export default class LoginScreen extends Component {
             <Text>Forgot?</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={[styles.buttonContainer, styles.loginButton]} onPress={() => this.props.navigation.navigate('MenuUtama')}>
+        <TouchableOpacity style={[styles.buttonContainer, styles.loginButton]} onPress={() => this.props.navigation.navigate('HalamanVinny')}>
           <Text style={styles.loginText}>Login</Text>
         </TouchableOpacity>
 

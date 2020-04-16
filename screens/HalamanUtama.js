@@ -29,9 +29,7 @@ export default class HalamanUtama extends Component {
 
                 <View style={styles.menuBox}>
                     <Image style={styles.icon} source={{uri: 'https://png.icons8.com/user-menu-male/color/50/ffffff'}}/>
-                    <TouchableOpacity onPress={() => this.props.navigation.navigate('Login')}>
-                      <Text style={styles.info}>Sign In</Text>
-                    </TouchableOpacity>
+                    <Text style={styles.info}>Sign In</Text>
                 </View>
 
                 <View style={styles.menuBox}>
@@ -46,9 +44,7 @@ export default class HalamanUtama extends Component {
 
                 <View style={styles.menuBox}>
                     <Image style={styles.icon} source={{uri: 'https://png.icons8.com/product/nolan/50/ffffff'}}/>
-                    <TouchableOpacity onPress={() => this.props.navigation.navigate('ProdukPelanggan')}>
-                      <Text style={styles.info}>Product</Text>
-                    </TouchableOpacity>
+                    <Text style={styles.info}>Product</Text>
                 </View>
 
                 <View style={styles.menuBox}>
@@ -58,9 +54,7 @@ export default class HalamanUtama extends Component {
 
                 <View style={styles.menuBox}>
                     <Image style={styles.icon} source={{uri: 'https://png.icons8.com/notification/dusk/50/ffffff'}}/>
-                    <TouchableOpacity onPress={() => this.props.navigation.navigate('Notification')}>
-                      <Text style={styles.info}>Info</Text>
-                    </TouchableOpacity>
+                    <Text style={styles.info}>Info</Text>
                 </View>
 
                 <View style={styles.menuBox}>
@@ -82,7 +76,7 @@ export default class HalamanUtama extends Component {
 
                     <View style={styles.avatar}>
                         <Image style={styles.icon} source={{uri: 'https://png.icons8.com/friends/color/50/ffffff'}}/>
-                        <Text style={styles.info}>Produk-Produk</Text>
+                        <Text style={styles.info}>Iklan</Text>
                     </View>
                 </View>
             </View>

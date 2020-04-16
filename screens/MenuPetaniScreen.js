@@ -2,8 +2,7 @@
 import React from 'react';
 import { Text, Button, View, StyleSheet, ImageBackground,TouchableOpacity, Image, Alert, FlatList } from 'react-native';
 
-const MenuPetaniScreen = ({ navigation }) => 
-{
+const MenuPetaniScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
           <View style={styles.header}>
@@ -42,7 +41,28 @@ const MenuPetaniScreen = ({ navigation }) =>
               </View>
 
               <View style={styles.menuBox}>
-               <TouchableOpacity onPress={() => navigation.navigate('Pesanan')}>
+               <TouchableOpacity onPress={() => navigation.navigate('About')} >
+                 <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
+                 <Text>Pesanan</Text>
+               </TouchableOpacity>
+              </View>
+
+              <View style={styles.menuBox}>
+               <TouchableOpacity onPress={() => navigation.navigate('About')} >
+                 <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
+                 <Text>Pesanan</Text>
+               </TouchableOpacity>
+              </View>
+
+              <View style={styles.menuBox}>
+               <TouchableOpacity onPress={() => navigation.navigate('About')} >
+                 <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
+                 <Text>Pesanan</Text>
+               </TouchableOpacity>
+              </View>
+
+              <View style={styles.menuBox}>
+               <TouchableOpacity onPress={() => navigation.navigate('About')} >
                  <Image style={styles.icon} source={{uri: 'https://png.icons8.com/heart/office/40/2ecc71'}}/>
                  <Text>Pesanan</Text>
                </TouchableOpacity>

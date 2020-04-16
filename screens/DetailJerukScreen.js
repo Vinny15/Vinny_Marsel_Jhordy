@@ -22,7 +22,7 @@ export default class DetailJerukScreen extends Component {
       userSelected:[],
       product: {
         name:"Jeruk Segar",
-        description:"Jeruk seegar ini di jual per buah",
+        description:"Jeruk segar ini di jual per buah",
         created:"",
         images:[
           "https://img.okezone.com/content/2017/11/13/298/1813316/ragam-jenis-jeruk-lokal-yang-penuh-khasiat-jeruk-sambas-jadi-andalan-3ejCADEvU7.jpg", 

@@ -33,7 +33,7 @@ export default class ProfileDetail extends Component {
           </View>
 
           <TouchableOpacity style={[styles.buttonContainer, styles.loginButton]} onPress={() => this.props.navigation.navigate('Login')}>
-              <Text style={styles.loginText}>See All Produk                                                                                      ----></Text>
+            <Text style={styles.loginText}>Login                                                                                                         ----></Text>
           </TouchableOpacity>
 
           <View style={styles.photosCard}>
@@ -79,7 +79,7 @@ export default class ProfileDetail extends Component {
                         </TouchableOpacity>
                     </View>
                     
-                    <TouchableOpacity style={[styles.buttonContainer, styles.loginButton]} onPress={() => this.props.navigation.navigate('Login')}>
+                    <TouchableOpacity style={[styles.buttonContainer, styles.loginButton]} onPress={() => this.props.navigation.navigate('ProdukPelanggan')}>
                         <Text style={styles.loginText}>See All Produk                                                                                      ----></Text>
                     </TouchableOpacity>
 
@@ -87,17 +87,22 @@ export default class ProfileDetail extends Component {
             </View>
         </View>
 
+           
+          <View style={[styles.card, styles.profileCard]}> 
+            <Image style={styles.avatar} source={{uri: "https://bootdey.com/img/Content/avatar/avatar6.png"}} />
+            <Text  style={styles.name}>Vinny</Text>
+          </View>
           
 
           <View style={styles.card}>
-            <Text style={styles.cardTittle}>Buah</Text>   
-            <Text> - Lorem ipsum dolor sit amet</Text>   
+            <Text style={styles.cardTittle}>Rempah-rempah</Text>   
+            <Text> - Looorem ipsum dolor sit amet</Text>   
             <Text> - Lorem ipsum dolor sit amet</Text>   
             <Text> - Lorem ipsum dolor sit amet</Text>   
           </View>
 
           <View style={styles.card}>
-            <Text style={styles.cardTittle}>Rempah-Rempah</Text>   
+            <Text style={styles.cardTittle}>Sembako</Text>   
             <Text> - Lorem ipsum dolor sit amet</Text>   
             <Text> - Lorem ipsum dolor sit amet</Text>   
             <Text> - Lorem ipsum dolor sit amet</Text>   

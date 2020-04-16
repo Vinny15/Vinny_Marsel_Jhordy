@@ -17,7 +17,7 @@ export default class ProfileView extends Component {
                   source={{uri: 'https://bootdey.com/img/Content/avatar/avatar1.png'}}/>
 
                 <Text style={styles.name}>
-                  Vinny, Marsel
+                  Vinny dan Marsel
                 </Text>
                 
             </View>

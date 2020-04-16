@@ -9,11 +9,9 @@ const MenuKedua = ({ navigation }) => {
         >
             <View style={styles.listContainer}>
                 <TouchableOpacity style = {[styles.card, {backgroundColor:'#87CEEB'}]} onPress={() => navigation.navigate('MenuPetani')} >
-                    <Image style={styles.cardImage} source={{uri:"https://cdn.pixabay.com/photo/2016/03/31/21/15/bread-1296280_960_720.png"}}/>
                 </TouchableOpacity>
                 <Text>Petani</Text>
-                <TouchableOpacity style = {[styles.card, {backgroundColor:'#87CEEB'}]} onPress={() => navigation.navigate('MenuPelanggan')} >
-                    <Image style={styles.cardImage} source={{uri:"https://pngimage.net/wp-content/uploads/2018/06/minuman-vector-png-2.png"}}/>
+                <TouchableOpacity style = {[styles.card, {backgroundColor:'#87CEEB'}]} onPress={() => navigation.navigate('Halaman')} >
                 </TouchableOpacity>
                 <Text>Pelanggan</Text>
             </View>

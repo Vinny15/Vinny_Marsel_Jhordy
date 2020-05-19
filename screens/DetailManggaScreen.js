@@ -116,7 +116,7 @@ export default class DetailManggaScreen extends Component {
                     }
                 />
         </View>
-          </View>
+      </View>
 
           
 

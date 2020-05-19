@@ -12,7 +12,7 @@ import {
   Button
 } from 'react-native';
 
-export default class DetailMaggisScreen extends Component {
+export default class DetailPepayaScreen extends Component {
 
   constructor(props) {
     super(props);
@@ -21,13 +21,13 @@ export default class DetailMaggisScreen extends Component {
       counter: 0,
       userSelected:[],
       product: {
-        name:"Manggis Segar",
-        description:"Manggis segar ini di jual per buah",
+        name:"Pepaya Segar",
+        description:"Pepaya segar ini di jual per buah",
         created:"",
         images:[
-          "https://www.go-dok.com/wp-content/uploads/2017/07/7-Manfaat-Manggis-WEB.jpg", 
-          "https://www.go-dok.com/wp-content/uploads/2017/07/7-Manfaat-Manggis-WEB.jpg", 
-          "https://www.go-dok.com/wp-content/uploads/2017/07/7-Manfaat-Manggis-WEB.jpg", 
+          "https://s2.bukalapak.com/img/702739643/original/pepaya_orange_lady.jpg", 
+          "https://s2.bukalapak.com/img/702739643/original/pepaya_orange_lady.jpg", 
+          "https://s2.bukalapak.com/img/702739643/original/pepaya_orange_lady.jpg", 
         ],
         colors:[
           "#00BFFF",

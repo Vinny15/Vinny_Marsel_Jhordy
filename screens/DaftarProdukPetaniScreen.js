@@ -113,6 +113,25 @@ const DaftarProdukPetani = ({ navigation }) => {
         
       </View>
 
+      <View style={styles.menuBox}>
+        <Text>Pepaya</Text>
+          <Image style={styles.icon} source={{uri: "https://s2.bukalapak.com/img/702739643/original/pepaya_orange_lady.jpg"}}/>
+        
+        <View style={styles.socialBarContainer}>
+          <View style={styles.socialBarSection}>
+            <TouchableOpacity style={styles.socialBarButton}>
+              <Text style={[styles.socialBarLabel, styles.share]}>Edit</Text>
+            </TouchableOpacity>
+          </View>
+          <View style={styles.socialBarSection}>
+            <TouchableOpacity style={styles.socialBarButton}>
+              <Text style={styles.socialBarLabel}>Delete</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+        
+      </View>
+
     </View>
   );
 }
@@ -133,7 +152,7 @@ const styles = StyleSheet.create({
   },
   icon: {
     width:150,
-    height:150,
+    height:140,
   },
   info:{
     fontSize:14,

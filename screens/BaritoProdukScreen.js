@@ -19,43 +19,28 @@ const DaftarProdukPelanggan = ({ navigation }) => {
 
     <View style={styles.container}>
 
+<Image style={styles.photo} source={{uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcToLVoOpI8Wn1nGMYUDjs3DvG5BGM8QT5f4PEtlRQ1d0CGbRMGU&usqp=CAU"}} />
+              <Image style={styles.photo} source={{uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEiDKKVCkPbfSjEIjw39z5O9pFr-LE1aNNFUEy_-ZRR86-seQO&usqp=CAU"}} />
+              <Image style={styles.photo} source={{uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSXt1DfdCclrvSYqteY_knOwda9rBpyM6tt9iK2eG5lAHgusHhc&usqp=CAU"}} />
+            
       <View style={styles.menuBox}>
-        <TouchableOpacity onPress={() => navigation.navigate('DetailMangga')} >
-          <Image style={styles.icon} source={{uri: "https://cdn-brilio-net.akamaized.net/community/2019/03/26/17915/image_1553582820_5c99cae47a271.jpg"}}/>
-          <Text style={styles.info}>Mangga</Text>
+        <TouchableOpacity onPress={() => navigation.navigate('DetailBawang')} >
+          <Image style={styles.icon} source={{uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcToLVoOpI8Wn1nGMYUDjs3DvG5BGM8QT5f4PEtlRQ1d0CGbRMGU&usqp=CAU"}}/>
+          <Text style={styles.info}>Bawang</Text>
         </TouchableOpacity>
       </View>
       <View style={styles.menuBox}>
-        <TouchableOpacity onPress={() => navigation.navigate('DetailDurian')} >
-          <Image style={styles.icon} source={{uri: "https://kuyahejo.com/wp-content/uploads/2016/03/Buah-Durian.jpg"}}/>
-          <Text style={styles.info}>Durian</Text>
+        <TouchableOpacity onPress={() => navigation.navigate('DetailCabe')} >
+          <Image style={styles.icon} source={{uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEiDKKVCkPbfSjEIjw39z5O9pFr-LE1aNNFUEy_-ZRR86-seQO&usqp=CAU"}}/>
+          <Text style={styles.info}>Cabe</Text>
         </TouchableOpacity>
       </View>
       <View style={styles.menuBox}>
-        <TouchableOpacity onPress={() => navigation.navigate('DetailManggis')} >
-          <Image style={styles.icon} source={{uri: "https://www.go-dok.com/wp-content/uploads/2017/07/7-Manfaat-Manggis-WEB.jpg"}}/>
-          <Text style={styles.info}>Manggis</Text>
+        <TouchableOpacity onPress={() => navigation.navigate('DetailTomat')} >
+          <Image style={styles.icon} source={{uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSXt1DfdCclrvSYqteY_knOwda9rBpyM6tt9iK2eG5lAHgusHhc&usqp=CAU"}}/>
+          <Text style={styles.info}>Tomat</Text>
         </TouchableOpacity>
       </View>
-      <View style={styles.menuBox}>
-        <TouchableOpacity onPress={() => navigation.navigate('DetailJeruk')} >
-          <Image style={styles.icon} source={{uri: "https://img.okezone.com/content/2017/11/13/298/1813316/ragam-jenis-jeruk-lokal-yang-penuh-khasiat-jeruk-sambas-jadi-andalan-3ejCADEvU7.jpg"}}/>
-          <Text style={styles.info}>Jeruk</Text>
-        </TouchableOpacity>
-      </View>
-      <View style={styles.menuBox}>
-        <TouchableOpacity onPress={() => navigation.navigate('DetailPisang')} >
-          <Image style={styles.icon} source={{uri: "https://topmedia.co.id/images/post/2019/02/640x400_pisang_.jpg"}}/>
-          <Text style={styles.info}>Pisang</Text>
-        </TouchableOpacity>
-      </View>
-      <View style={styles.menuBox}>
-        <TouchableOpacity onPress={() => navigation.navigate('DetailPepaya')} >
-          <Image style={styles.icon} source={{uri: "https://s2.bukalapak.com/img/702739643/original/pepaya_orange_lady.jpg"}}/>
-          <Text style={styles.info}>Pepayah</Text>
-        </TouchableOpacity>
-      </View>
-
     </View>
   );
 }

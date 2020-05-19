@@ -8,9 +8,9 @@ import {
   Alert,
   Image
 } from 'react-native';
-import MenuUtama from './HalamanUtamaVinny';
+import MenuUtama from './MenuUtama';
 
-export default class LoginScreen extends Component {
+export default class LoginPetaniScreen extends Component {
 
   render() {
     return (
@@ -35,7 +35,7 @@ export default class LoginScreen extends Component {
             <Text>Forgot?</Text>
         </TouchableOpacity>
 
-        <TouchableOpacity style={[styles.buttonContainer, styles.loginButton]} onPress={() => this.props.navigation.navigate('MenuPelanggan')}>
+        <TouchableOpacity style={[styles.buttonContainer, styles.loginButton]} onPress={() => this.props.navigation.navigate('MenuPetani')}>
           <Text style={styles.loginText}>Login</Text>
         </TouchableOpacity>
 

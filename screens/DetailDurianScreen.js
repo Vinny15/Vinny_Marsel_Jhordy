@@ -122,7 +122,7 @@ export default class DetailDurianscreen extends Component {
 
           <View style={styles.card}>
             <View style={styles.cardContent}>
-              <TouchableOpacity style={styles.shareButton}>
+              <TouchableOpacity style={styles.shareButton} onPress={() => this.props.navigation.navigate('SuksesOrder')}>
                 <Text style={styles.shareButtonText}>Add To Cart</Text>  
               </TouchableOpacity>
             </View>

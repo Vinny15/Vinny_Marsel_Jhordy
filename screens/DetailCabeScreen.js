@@ -12,7 +12,7 @@ import {
   Button
 } from 'react-native';
 
-export default class DetailMaggisScreen extends Component {
+export default class DetailDurianscreen extends Component {
 
   constructor(props) {
     super(props);
@@ -21,13 +21,13 @@ export default class DetailMaggisScreen extends Component {
       counter: 0,
       userSelected:[],
       product: {
-        name:"Manggis Segar",
-        description:"Manggis segar ini di jual per buah",
+        name:"Cabe Segar",
+        description:"Cabe segar ini di jual per buah",
         created:"",
         images:[
-          "https://www.go-dok.com/wp-content/uploads/2017/07/7-Manfaat-Manggis-WEB.jpg", 
-          "https://www.go-dok.com/wp-content/uploads/2017/07/7-Manfaat-Manggis-WEB.jpg", 
-          "https://www.go-dok.com/wp-content/uploads/2017/07/7-Manfaat-Manggis-WEB.jpg", 
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEiDKKVCkPbfSjEIjw39z5O9pFr-LE1aNNFUEy_-ZRR86-seQO&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEiDKKVCkPbfSjEIjw39z5O9pFr-LE1aNNFUEy_-ZRR86-seQO&usqp=CAU",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTEiDKKVCkPbfSjEIjw39z5O9pFr-LE1aNNFUEy_-ZRR86-seQO&usqp=CAU", 
         ],
         colors:[
           "#00BFFF",

@@ -49,12 +49,6 @@ const DaftarProdukPelanggan = ({ navigation }) => {
           <Text style={styles.info}>Pisang</Text>
         </TouchableOpacity>
       </View>
-      <View style={styles.menuBox}>
-        <TouchableOpacity onPress={() => navigation.navigate('DetailPepaya')} >
-          <Image style={styles.icon} source={{uri: "https://s2.bukalapak.com/img/702739643/original/pepaya_orange_lady.jpg"}}/>
-          <Text style={styles.info}>Pepayah</Text>
-        </TouchableOpacity>
-      </View>
 
     </View>
   );
